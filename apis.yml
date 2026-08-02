@@ -1,8 +1,30 @@
 aid: unchained-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unchained-labs.png
 name: Unchained Labs
-description: Unchained Labs is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Unchained Labs is a life-science tools company that designs, manufactures, and
+  sells analytical instruments, automation, and consumables for biologics, gene
+  therapy, cell therapy, nanoparticle, exosome, and genomics research. Its product
+  line includes plate-based systems for protein characterization, concentration and
+  quantification (Lunatic and Stunner), protein stability and formulation (Uncle),
+  automated buffer exchange and sample prep (Big Tuna, Little Big Tuna), viscosity
+  measurement, and lipid-nanoparticle synthesis and analysis. The company serves
+  biopharma R&D, process development, and QC labs. Unchained Labs is primarily a
+  hardware, reagent, and lab-software vendor; as of this enrichment pass it exposes
+  no public developer API, REST/GraphQL surface, SDK, or developer portal. This
+  profile was surfaced as a portfolio company of Canaan Partners and enriched with
+  verified company identity and link properties from its public website.
 url: https://raw.githubusercontent.com/api-evangelist/unchained-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Life Sciences
+- Biotechnology
+- Laboratory Instruments
+- Analytical Instruments
+- Protein Characterization
+- Automation
+- Consumables
 apis: []
+common:
+- type: Website
+  url: https://www.unchainedlabs.com/
+- type: Blog
+  url: https://www.unchainedlabs.com/blog/
+- type: Support
+  url: https://www.unchainedlabs.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.unchainedlabs.com/privacy-policy
+- type: TermsOfService
+  url: https://www.unchainedlabs.com/terms-of-sale
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
